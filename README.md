@@ -14,28 +14,34 @@
 7. M. Siddula, L. Li, and Y. Li, ‘‘An empirical study on the privacy preservation of online social networks,’’ IEEE Access, vol. 6, pp. 19912–19922, 2018.
 8. S. Kumar and P. Kumar, ‘‘Upper approximation based privacy preserving in online social networks,’’ Expert Syst. Appl., vol. 88, pp. 276–289, Dec. 2017.
 9.  Vadisala and V. K. Vatsavayi, ‘‘Challenges in social network data privacy,’’ Int. J. Comput. Intell. Res., vol. 13, no. 5, pp. 965–979, 2017.
-10. J. Casas-Roma, J. Herrera-Joancomartí, and V. Torra, ‘‘A survey of graphmodification techniques for privacy-preserving on networks,’’ Artif. Intell. Rev., vol. 47, no. 3, pp. 341–366, Mar. 2017.
+10. J. Casas-Roma, J. Herrera-Joancomartí, and V. Torra, ‘‘A survey of graph modification techniques for privacy-preserving on networks,’’ Artif. Intell. Rev., vol. 47, no. 3, pp. 341–366, Mar. 2017.
 11. J. Abawajy and M. I. H. Ninggal, ‘‘Tutut herawan privacy preserving social network data publication,’’ IEEE Commun. Surveys Tuts., vol. 18, no. 3, pp. 1974–1997, 3rd Quart., 2016. 
 12. E. Zheleva and L. Getoor, ‘‘Privacy in social networks: A survey,’’ in Social Network Data Analytics. Boston, MA, USA: Springer, 2011, pp. 277–306.
 13. B. Zhou, J. Pei, and W. Luk, ‘‘A brief survey on anonymization techniques for privacy preserving publishing of social network data,’’ ACM SIGKDD Explor. Newslett., vol. 10, no. 2, pp. 12–22, Dec. 2008.
 
 ## Privacy Preserving
 
-
+computation on graph data: graph density, edges count, relationships degree, degree distributions, size of the network, centralities, closeness, counts of the sub graphs, top k-users with highest degree in a network, distance/similarity between users, path length, clustering coefficients, community discovery/extraction, hypergraphs, joint degree distribution, cuts, number of users with degree d, aggregation, projections, and sparse and dense segments of the graph
 
 ### Structure modifying
 
+分为约束性修改（k-匿名）和非约束性修改（随机修改）
+
+k-degree anonymity, k-isomorphism anonymity, k-automorphism anonymity, k-candidate anonymity, k-neighborhood anonymity, and (k, l)-grouping
 
 
-### K-anonymity
 
-
+### Graph generalization
 
 
 
 ### Differential privacy
 
+node-level DP, edge-level DP, and node and edge level DP
 
+点差分、边差分；每类又分为交互式和非交互式，集中式和本地差分。
+
+应用场景分为数据采集、数据发布、图数据挖掘、图神经网络学习。
 
 ### Encryption
 
