@@ -78,5 +78,6 @@ node-level DP, edge-level DP, and node and edge level DP
 ## Topics
 
 1. Kinan Dak Albab and Rawane Issa and Mayank Varia and Kalman Graffi: **Batched Differentially Private** Information Retrieval
-2. 
+2. Albert Cheu, Adam Smith, Jonathan Ullman. **Manipulation Attacks** in Local Differential Privacy, In IEEE Symposium on Security and Privacy (Oakland) 2021
+
 
